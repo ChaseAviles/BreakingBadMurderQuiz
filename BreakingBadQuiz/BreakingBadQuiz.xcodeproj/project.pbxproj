@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F77B94A25D47A7500EFFDDA /* BreakingBad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F77B94925D47A7500EFFDDA /* BreakingBad.swift */; };
+		2F77B94F25D47DE800EFFDDA /* BreakingBadDeathCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F77B94E25D47DE800EFFDDA /* BreakingBadDeathCount.swift */; };
 		D4B8FCAC25D473530004CE12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8FCAB25D473530004CE12 /* AppDelegate.swift */; };
 		D4B8FCAE25D473530004CE12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8FCAD25D473530004CE12 /* SceneDelegate.swift */; };
 		D4B8FCB325D473530004CE12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4B8FCB125D473530004CE12 /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F77B94925D47A7500EFFDDA /* BreakingBad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingBad.swift; sourceTree = "<group>"; };
+		2F77B94E25D47DE800EFFDDA /* BreakingBadDeathCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingBadDeathCount.swift; sourceTree = "<group>"; };
 		D4B8FCA825D473530004CE12 /* BreakingBadQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakingBadQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4B8FCAB25D473530004CE12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4B8FCAD25D473530004CE12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +43,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F77B94525D47A4D00EFFDDA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D4B8FCAB25D473530004CE12 /* AppDelegate.swift */,
+				D4B8FCAD25D473530004CE12 /* SceneDelegate.swift */,
+				D4B8FCAF25D473530004CE12 /* ViewController.swift */,
+				D4B8FCB425D473540004CE12 /* Assets.xcassets */,
+				D4B8FCB925D473540004CE12 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2F77B94725D47A5500EFFDDA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D4B8FCB125D473530004CE12 /* Main.storyboard */,
+				D4B8FCB625D473540004CE12 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2F77B94825D47A6000EFFDDA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F77B94925D47A7500EFFDDA /* BreakingBad.swift */,
+				2F77B94E25D47DE800EFFDDA /* BreakingBadDeathCount.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D4B8FC9F25D473530004CE12 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +92,7 @@
 		D4B8FCAA25D473530004CE12 /* BreakingBadQuiz */ = {
 			isa = PBXGroup;
 			children = (
+
 				D4B8FCC725D47D970004CE12 /* Helpers and Extensions */,
 				D4B8FCC325D476F30004CE12 /* ModelController */,
 				D4B8FCC025D4759D0004CE12 /* Resources */,
@@ -74,6 +109,11 @@
 				D4B8FCAD25D473530004CE12 /* SceneDelegate.swift */,
 				D4B8FCB425D473540004CE12 /* Assets.xcassets */,
 				D4B8FCB925D473540004CE12 /* Info.plist */,
+
+				2F77B94825D47A6000EFFDDA /* Model */,
+				2F77B94525D47A4D00EFFDDA /* Resources */,
+				2F77B94725D47A5500EFFDDA /* Views */,
+
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -164,8 +204,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+
 				D4B8FCAC25D473530004CE12 /* AppDelegate.swift in Sources */,
 				D4B8FCC925D47DB90004CE12 /* NetworkError.swift in Sources */,
+
+				2F77B94F25D47DE800EFFDDA /* BreakingBadDeathCount.swift in Sources */,
+				D4B8FCB025D473530004CE12 /* ViewController.swift in Sources */,
+				D4B8FCAC25D473530004CE12 /* AppDelegate.swift in Sources */,
+				2F77B94A25D47A7500EFFDDA /* BreakingBad.swift in Sources */,
+
 				D4B8FCAE25D473530004CE12 /* SceneDelegate.swift in Sources */,
 				D4B8FCC525D477B70004CE12 /* BreakingBadController.swift in Sources */,
 			);
